@@ -16,4 +16,5 @@ const generateHash = (str) => {
 
   return resultArray.join('');
 };
+
 console.log(generateHash('hy name is lakhan '));
