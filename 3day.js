@@ -3,7 +3,7 @@ const countChar = (word, targetWord) => {
   const strArr = word.split('');
   targetWord = targetWord.toLowerCase();
 
-  
+
   totalcount = strArr.reduce((acc, current) => {
     if (current === targetWord) {
       acc++;
@@ -14,3 +14,4 @@ const countChar = (word, targetWord) => {
 };
 
 console.log(countChar('ASbsachaia', 'a'));
+//when ever its come to get single value go with reduce
