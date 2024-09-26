@@ -28,6 +28,6 @@ const factorial = (num) => {
     return num * factorial(num - 1);
   };
   
-  console.log(factorial(3));
+  console.log(factorial(3));  
 // factorial(-2)
   
