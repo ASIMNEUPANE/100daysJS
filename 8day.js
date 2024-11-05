@@ -14,6 +14,7 @@
 //     return val; 
 //   };
 
+
 const factorial = (num) => {
     // Check if the number is negative
     if (num < 0) {
