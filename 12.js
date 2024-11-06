@@ -1,6 +1,7 @@
 const removeDuplocates=(arr)=>{
 
     // 1st approach
+    // new Set() = collection of unique object it will remove duplicate valure like int , string,
 //    let newArr = [...new Set(arr)]
 //    return newArr
 
